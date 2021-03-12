@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="process"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="process">
+				<Option output="/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/process" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 process"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="process/fast">
+				<Option output="/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/process" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 process/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="syslog">
+				<Option output="/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/syslog" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 syslog"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="syslog/fast">
+				<Option output="/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/syslog" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 syslog/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="primer">
+				<Option output="/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/primer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 primer"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="primer/fast">
+				<Option output="/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/primer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 primer/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="few">
+				<Option output="/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/few" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 few"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="few/fast">
+				<Option output="/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/few" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 few/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="daemon">
+				<Option output="/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/daemon" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 daemon"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="daemon/fast">
+				<Option output="/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/daemon" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 daemon/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/chuancey/tmp/tmp.gTtUxwhsKY/daemon.c">
+			<Option target="daemon"/>
+		</Unit>
+		<Unit filename="/home/chuancey/tmp/tmp.gTtUxwhsKY/few.c">
+			<Option target="few"/>
+		</Unit>
+		<Unit filename="/home/chuancey/tmp/tmp.gTtUxwhsKY/main.c">
+			<Option target="process"/>
+		</Unit>
+		<Unit filename="/home/chuancey/tmp/tmp.gTtUxwhsKY/primer.c">
+			<Option target="primer"/>
+		</Unit>
+		<Unit filename="/home/chuancey/tmp/tmp.gTtUxwhsKY/syslog.c">
+			<Option target="syslog"/>
+		</Unit>
+		<Unit filename="/home/chuancey/tmp/tmp.gTtUxwhsKY/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,1 @@
+/usr/bin/cc --coverage -g   CMakeFiles/pipControlcatStrenthed.dir/pipControlcatStrenthed.c.o  -o pipControlcatStrenthed 

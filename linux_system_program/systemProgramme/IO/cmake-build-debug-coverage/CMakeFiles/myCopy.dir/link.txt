@@ -1,0 +1,1 @@
+/usr/bin/cc --coverage -g   CMakeFiles/myCopy.dir/myCopy.c.o  -o myCopy 

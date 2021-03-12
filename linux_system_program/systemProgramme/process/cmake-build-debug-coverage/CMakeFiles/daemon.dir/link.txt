@@ -1,0 +1,1 @@
+/usr/bin/cc --coverage -g   CMakeFiles/daemon.dir/daemon.c.o  -o daemon 

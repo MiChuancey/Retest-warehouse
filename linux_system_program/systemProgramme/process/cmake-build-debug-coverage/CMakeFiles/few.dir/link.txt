@@ -1,0 +1,1 @@
+/usr/bin/cc --coverage -g   CMakeFiles/few.dir/few.c.o  -o few 

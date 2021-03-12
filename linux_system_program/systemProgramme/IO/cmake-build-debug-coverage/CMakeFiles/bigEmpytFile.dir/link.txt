@@ -1,0 +1,1 @@
+/usr/bin/cc --coverage -g   CMakeFiles/bigEmpytFile.dir/bigEmpytFile.c.o  -o bigEmpytFile 

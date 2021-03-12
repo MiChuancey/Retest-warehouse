@@ -1,0 +1,1 @@
+/usr/bin/cc --coverage -g   CMakeFiles/jmp.dir/jmp.c.o  -o jmp 

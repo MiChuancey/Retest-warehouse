@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chuancey/tmp/tmp.uvDJqAdkKi/checkPasswd.c
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+crypt.h
+-
+shadow.h
+-
+string.h
+-
+

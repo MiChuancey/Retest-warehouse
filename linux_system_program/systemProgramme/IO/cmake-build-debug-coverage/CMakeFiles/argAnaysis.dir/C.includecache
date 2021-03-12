@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chuancey/tmp/tmp.uvDJqAdkKi/argAnaysis.c
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+unistd.h
+-
+string.h
+-
+

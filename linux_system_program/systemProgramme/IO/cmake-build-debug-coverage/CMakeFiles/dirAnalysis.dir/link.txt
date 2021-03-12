@@ -1,0 +1,1 @@
+/usr/bin/cc --coverage -g   CMakeFiles/dirAnalysis.dir/dirAnalysis.c.o  -o dirAnalysis 

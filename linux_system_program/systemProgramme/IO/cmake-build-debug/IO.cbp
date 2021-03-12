@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="IO"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="errno">
+				<Option output="/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/errno" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 errno"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="errno/fast">
+				<Option output="/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/errno" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 errno/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="myCopy">
+				<Option output="/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/myCopy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 myCopy"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="myCopy/fast">
+				<Option output="/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/myCopy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 myCopy/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="IO">
+				<Option output="/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/IO" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 IO"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="IO/fast">
+				<Option output="/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/IO" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 IO/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sysCopys">
+				<Option output="/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/sysCopys" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 sysCopys"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sysCopys/fast">
+				<Option output="/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/sysCopys" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 sysCopys/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="getline">
+				<Option output="/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/getline" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 getline"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="getline/fast">
+				<Option output="/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/getline" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 getline/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/chuancey/tmp/tmp.uvDJqAdkKi/errno.c">
+			<Option target="errno"/>
+		</Unit>
+		<Unit filename="/home/chuancey/tmp/tmp.uvDJqAdkKi/getline.c">
+			<Option target="getline"/>
+		</Unit>
+		<Unit filename="/home/chuancey/tmp/tmp.uvDJqAdkKi/main.c">
+			<Option target="IO"/>
+		</Unit>
+		<Unit filename="/home/chuancey/tmp/tmp.uvDJqAdkKi/myCopy.c">
+			<Option target="myCopy"/>
+		</Unit>
+		<Unit filename="/home/chuancey/tmp/tmp.uvDJqAdkKi/sysCopy.c">
+			<Option target="sysCopys"/>
+		</Unit>
+		<Unit filename="/home/chuancey/tmp/tmp.uvDJqAdkKi/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

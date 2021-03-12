@@ -1,0 +1,1 @@
+/usr/bin/cc --coverage -g   CMakeFiles/errno.dir/errno.c.o  -o errno 

@@ -1,0 +1,1 @@
+/usr/bin/cc --coverage -g   CMakeFiles/argAnaysis.dir/argAnaysis.c.o  -o argAnaysis 

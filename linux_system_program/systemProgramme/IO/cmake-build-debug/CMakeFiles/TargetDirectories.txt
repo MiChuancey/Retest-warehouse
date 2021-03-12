@@ -1,0 +1,7 @@
+/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/CMakeFiles/errno.dir
+/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/CMakeFiles/myCopy.dir
+/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/CMakeFiles/IO.dir
+/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/CMakeFiles/sysCopys.dir
+/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/CMakeFiles/getline.dir
+/home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug/CMakeFiles/edit_cache.dir

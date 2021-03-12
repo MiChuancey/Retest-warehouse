@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/signalSet.dir/signalSet.c.o  -o signalSet 

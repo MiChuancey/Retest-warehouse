@@ -1,0 +1,1 @@
+/usr/bin/cc --coverage -g   CMakeFiles/dup.dir/dup.c.o  -o dup 

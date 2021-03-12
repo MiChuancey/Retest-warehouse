@@ -1,0 +1,4 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_FLAGS=--coverage -DCMAKE_C_FLAGS=--coverage -G "CodeBlocks - Unix Makefiles" /home/chuancey/tmp/tmp.uvDJqAdkKi
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/chuancey/tmp/tmp.uvDJqAdkKi/cmake-build-debug-coverage

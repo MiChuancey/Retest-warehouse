@@ -1,0 +1,16 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_FLAGS=--coverage -DCMAKE_C_FLAGS=--coverage -G "CodeBlocks - Unix Makefiles" /home/chuancey/tmp/tmp.gTtUxwhsKY
+-- Configuring done
+CMake Error at CMakeLists.txt:11 (add_executable):
+  Cannot find source file:
+
+    parallel/Signal/signal.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+-- Build files have been written to: /home/chuancey/tmp/tmp.gTtUxwhsKY/cmake-build-debug-coverage
+CMake Error at CMakeLists.txt:11 (add_executable):
+  No SOURCES given to target: signal
+
+

@@ -6,7 +6,7 @@ static void func(int x){}
 
 int main() {
 
-//    signal(SIGINT,SIG_DFL);
+//    signal(SIGINT,SIG_DFL); //SIG_DFL—采用系统默认处理
 
     signal(SIGINT,func);
 

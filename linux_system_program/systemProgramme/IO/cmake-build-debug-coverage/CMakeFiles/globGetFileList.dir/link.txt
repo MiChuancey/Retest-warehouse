@@ -1,0 +1,1 @@
+/usr/bin/cc --coverage -g   CMakeFiles/globGetFileList.dir/globGetFileList.c.o  -o globGetFileList 

@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/5secCount.dir/5secCount.c.o  -o 5secCount 

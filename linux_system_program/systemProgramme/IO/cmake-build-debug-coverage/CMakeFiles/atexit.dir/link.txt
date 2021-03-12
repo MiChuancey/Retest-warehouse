@@ -1,0 +1,1 @@
+/usr/bin/cc --coverage -g   CMakeFiles/atexit.dir/atexit.c.o  -o atexit 

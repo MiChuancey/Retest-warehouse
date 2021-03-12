@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="paraller"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sigSuspend">
+				<Option output="/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/sigSuspend" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 sigSuspend"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sigSuspend/fast">
+				<Option output="/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/sigSuspend" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 sigSuspend/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pipControlcatStrenthed">
+				<Option output="/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/pipControlcatStrenthed" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 pipControlcatStrenthed"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pipControlcatStrenthed/fast">
+				<Option output="/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/pipControlcatStrenthed" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 pipControlcatStrenthed/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pipeControlcat">
+				<Option output="/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/pipeControlcat" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 pipeControlcat"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pipeControlcat/fast">
+				<Option output="/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/pipeControlcat" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 pipeControlcat/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="signalSet">
+				<Option output="/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/signalSet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 signalSet"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="signalSet/fast">
+				<Option output="/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/signalSet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 signalSet/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="5secCount">
+				<Option output="/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/5secCount" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 5secCount"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="5secCount/fast">
+				<Option output="/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/5secCount" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 5secCount/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="paraller">
+				<Option output="/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/paraller" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 paraller"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="paraller/fast">
+				<Option output="/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/paraller" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 paraller/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.cyOB7AUMHQ/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/tmp/tmp.cyOB7AUMHQ/5secCount.c">
+			<Option target="5secCount"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.cyOB7AUMHQ/main.c">
+			<Option target="paraller"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.cyOB7AUMHQ/pipControlcatStrenthed.c">
+			<Option target="pipControlcatStrenthed"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.cyOB7AUMHQ/pipeControlcat.c">
+			<Option target="pipeControlcat"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.cyOB7AUMHQ/sigSuspend.c">
+			<Option target="sigSuspend"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.cyOB7AUMHQ/signalSet.c">
+			<Option target="signalSet"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.cyOB7AUMHQ/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

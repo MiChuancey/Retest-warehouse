@@ -1,0 +1,1 @@
+/usr/bin/cc --coverage -g   CMakeFiles/primer.dir/primer.c.o  -o primer 
