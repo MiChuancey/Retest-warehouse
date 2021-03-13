@@ -874,15 +874,6 @@ void closelog(void);
 
 ```
 
-### 进程通信
-
-> Linux下的进程通信方式
->
-> - pipe管道
-> - fifo管道
-> - 内存共享映射
-> - unix domain socket
-
 ### 并发
 
 > 信号实现和线程实现不要混用
@@ -1019,15 +1010,82 @@ int sigpending(sigset_t *set); //用不到
 
 - 实时信号
 
-
+不会丢失，标准信号优先相应于实时信号
 
 #### 线程实现
 
+1. 线程的概念
+
+   - POSIX线程是一个标准，而不是实现
+
+   - openmp线程（标准）
+
+   线程标识：pthread_t
+
+   线程的调度取决于调度器的调度策略
+
+   ```c
+   #include <pthread.h>
+   
+   int pthread_equal(pthread_t t1, pthread_t t2);
+   pthread_t pthread_self(void);
+   Compile and link with -pthread.
+   ```
+
+2. 线程的创建
+
+   线程的终止
+
+   线程的取消
+
+   栈的清理
+
+   ```c
+   #include <pthread.h>
+   
+   int pthread_create(pthread_t *thread, const pthread_attr_t *attr,
+                      void *(*start_routine) (void *), void *arg);
+   
+   Compile and link with -pthread.
+   
+   ```
+
+   
+
+3. 线程同步
+
+4. 线程的属性
+
+   线程同步的属性
+
+5. 重入
+
+6. 线程与信号/fork的关系
+
+   
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+### 进程通信
+
+> Linux下的进程通信方式
+>
+> - pipe管道
+> - fifo管道
+> - 内存共享映射
+> - unix domain socket
 
 
 
@@ -1127,6 +1185,11 @@ root用户无法运行没有x权限的二进制文件，其他权限都可以执
 打印时戳的命令：date +%s
 
 
+
+查看线程信息
+
+- ps axm
+- ps ax -L
 
 
 
