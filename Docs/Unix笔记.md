@@ -1245,42 +1245,21 @@ int sigpending(sigset_t *set); //用不到
    
    ```
 
+   
+
 3. 线程同步
-
-   ```c
-   //ubuntu 需要安装posix线程库的manpage才能查到
-   //sudo apt-get install glibc-doc
-   //sudo apt-get install manpages-posix-dev
-   
-   int pthread_mutex_init(pthread_mutex_t *mutex, const pthread_mutexattr_t *mutexattr);
-   
-   int pthread_mutex_lock(pthread_mutex_t *mutex);
-   
-   int pthread_mutex_trylock(pthread_mutex_t *mutex);
-   
-   int pthread_mutex_unlock(pthread_mutex_t *mutex);
-   
-   ```
-
-   
 
 4. 线程的属性
 
    线程同步的属性
 
-   
-
 5. 重入
-
-   
 
 6. 线程与信号/fork的关系
 
    
 
 
-
-### 
 
 
 
@@ -1305,72 +1284,7 @@ int sigpending(sigset_t *set); //用不到
 
 
 
-### 高级IO
 
-> 有限状态机编程
-
-
-
-#### 非阻塞IO
-
-
-
-#### IO多路转接
-
-
-
-#### 其他读写函数
-
-
-
-#### 存储映射IO
-
-
-
-#### 文件锁
-
-
-
-
-
-## 网络编程
-
-> 跨主机传输要注意的问题
->
-> 1. 字节序问题 ：大端存储和小端存储
->
->    - 大端：高地址处存低字节 （网络字节序）
->    - 小端：高地址处存高字节（小端字节序）
->
-> 2. 对齐：解决方法：不对齐，让编译器来做
->
-> 3. 类型长度问题
->
->    int       ---------------> int32_t
->
->    usigned int       ------> uint32_t
->
->    long int       ----------> int64_t
->
->    short int       ---------> int8_t
->
->    unsigned short int --> uint8_t
->
-> 4. socket是什么
->
->    ```c
->    #include <sys/types.h>          /* See NOTES */
->    #include <sys/socket.h>
->    
->    int socket(int domain, int type, int protocol);
->    
->    ```
->
->    
-
-
-
-### UDP传输
 
 
 
@@ -1474,14 +1388,7 @@ root用户无法运行没有x权限的二进制文件，其他权限都可以执
 
 
 
-查看已经打开的端口
 
-```bash
-# 查看UDP的
-netstat -anu
-# 查看TCP的
-netstat -ant
-```
 
 
 
