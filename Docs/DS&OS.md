@@ -170,7 +170,7 @@ n个顶点的连通图最多n（n-1）/2，最少n-1
 
 七态：就绪、执行、阻塞、创建（用户登陆、提供服务、作业调度）、终止、挂起、激活
 
-​    ![img](file:///C:/Users/Chuancey/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg)
+​    ![img](E:\Documents\Retest-warehouse\Docs\DS&OS.assets\clip_image002.jpg)
 
  
 
