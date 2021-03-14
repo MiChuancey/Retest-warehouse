@@ -158,6 +158,176 @@ find /usr/ -name "*tmp*"
 >
 > `.PHONY: clean,ALL`
 
+### Cmake
+
+> CMake 是一个跨平台的安装编译工具，可以用简单的语句来描述所有平台的安装（编译过程）
+
+- 基本语法格式 `指令(参数1 参数2 ...)`
+
+  - 参数使用括弧括起
+
+  - 参数之间使用空格或分号分开
+
+  - 指令是大小写无关，参数和变量是大小写相关的
+
+    ```cmake
+    set(HELLO hello.cpp)
+    add_executable(hello main.cpp)
+    add_executable(hello main.cpp ${HELLO})
+    ```
+
+  - 变量使用`${}`方式取值，但是在IF控制语句中是必须直接使用变量名
+
+- 重要指令
+
+  - **cmake_minimum_required** **- 指定CMake的最小版本要求**
+
+    ```cmake
+    # CMake最小版本要求为2.8.3
+    cmake_minimum_required(VERSION 2.8.3)
+    ```
+
+  - - 语法：`cmake_minimum_required(VERSION versionNumber [FATAL_ERROR])`
+
+  - **project** **- 定义工程名称，并可指定工程支持的语言** 
+
+    ```cmake
+    # 指定工程名为HELLOWORLD
+    project(HELLOWORLD)
+    ```
+
+  - - 语法：**project(projectname [CXX] [C] [Java])**
+
+  - **set** **- 显式的定义变量** 
+
+    ```cmake
+    # 定义SRC变量，其值为main.cpp hello.cpp
+    set(SRC sayhello.cpp hello.cpp)
+    ```
+
+  - - 语法：**set(VAR [VALUE] [CACHE TYPE DOCSTRING [FORCE]])**
+
+  - **include_directories - 向工程添加多个特定的头文件搜索路径** --->相当于指定g++编译器的-I参数
+
+    ```cmake
+    # 将/usr/include/myincludefolder 和 ./include 添加到头文件搜索路径
+    include_directories(/usr/include/myincludefolder ./include)
+    ```
+
+  - - 语法：**include_directories([AFTER|BEFORE] [SYSTEM] dir1 dir2 …)**
+
+  - **link_directories** **- 向工程添加多个特定的库文件搜索路径** --->相当于指定g++编译器的-L参数
+
+    ```cmake
+    # 将/usr/lib/mylibfolder 和 ./lib 添加到库文件搜索路径
+    link_directories(/usr/lib/mylibfolder ./lib)
+    ```
+
+  - - 语法：link_directories(dir1 dir2 …) 
+
+  - **add_library** **- 生成库文件**
+
+    ```cmake
+    # 通过变量 SRC 生成 libhello.so 共享库
+    add_library(hello SHARED ${SRC})
+    ```
+
+  - - 语法：**add_library(libname [SHARED|STATIC|MODULE] [EXCLUDE_FROM_ALL] source1 source2 … sourceN)**
+
+  - **add_compile_options** - 添加编译参数
+
+    ```cmake
+    # 添加编译参数 -Wall -std=c++11
+    add_compile_options(-Wall -std=c++11 -O2)
+    ```
+
+  - - 语法：**add_compile_options(**
+
+  - **add_executable** **- 生成可执行文件**
+
+    ```cmake
+    # 编译main.cpp生成可执行文件main
+    add_executable(main main.cpp)
+    ```
+
+  - - 语法：**add_library(exename source1 source2 … sourceN)**
+
+  - **target_link_libraries** - 为 target 添加需要链接的共享库  --->相同于指定g++编译器-l参数
+
+    ```cmake
+    target_link_libraries(main hello) # 将hello动态库文件链接到可执行文件main
+    target_link_libraries(main pthread) #将pthread动态库文件链接到可执行文件main
+    ```
+
+  - - 语法：**target_link_libraries(target library1library2…)**
+
+  - **add_subdirectory - 向当前工程添加存放源文件的子目录，并可以指定中间二进制和目标二进制存放的位置**
+
+    ```cmake
+    # 添加src子目录，src中需有一个CMakeLists.txt
+    add_subdirectory(src)
+    ```
+
+  - - 语法：**add_subdirectory(source_dir [binary_dir] [EXCLUDE_FROM_ALL])**
+
+  - **aux_source_directory - 发现一个目录下所有的源代码文件并将列表存储在一个变量中，这个指令临时被用来自动构建源文件列表**
+
+    ```cmake
+    # 定义SRC变量，其值为当前目录下所有的源代码文件
+    aux_source_directory(. SRC)
+    # 编译SRC变量所代表的源代码文件，生成main可执行文件
+    add_executable(main ${SRC})
+    ```
+
+  - - 语法：**aux_source_directory(dir VARIABLE)**
+
+- CMake常用变量
+
+  **CMAKE_C_FLAGS  gcc编译选项**
+
+  **CMAKE_CXX_FLAGS  g++编译选项**
+
+  ```cmake
+  # 在CMAKE_CXX_FLAGS编译选项后追加-std=c++11
+  set( CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+  ```
+
+  **CMAKE_BUILD_TYPE  编译类型(Debug, Release)**
+
+  ```cmake
+  1# 设定编译类型为debug，调试时需要选择debug
+  set(CMAKE_BUILD_TYPE Debug) 
+  # 设定编译类型为release，发布时需要选择release
+  set(CMAKE_BUILD_TYPE Release) 
+  ```
+
+  **CMAKE_BINARY_DIR**
+
+  **PROJECT_BINARY_DIR**
+
+  **<projectname>__BINARY_DIR**
+
+  - 1. 这三个变量指代的内容是一致的。
+    2. 如果是 in source build，指的就是工程顶层目录。
+    3. 如果是 out-of-source 编译,指的是工程编译发生的目录。
+    4. PROJECT_BINARY_DIR 跟其他指令稍有区别，不过现在，你可以理解为他们是一致的。
+
+  - **CMAKE_SOURCE_DIR**
+
+    **PROJECT_SOURCE_DIR**
+    **<projectname>__SOURCE_DIR**
+
+  - 1. 这三个变量指代的内容是一致的,不论采用何种编译方式,都是工程顶层目录。
+    2. 也就是在 in source build时,他跟 CMAKE_BINARY_DIR 等变量一致。
+    3. PROJECT_SOURCE_DIR 跟其他指令稍有区别,现在,你可以理解为他们是一致的。
+
+  ------
+
+  - **CMAKE_C_COMPILER：指定C编译器**
+  - **CMAKE_CXX_COMPILER：指定C++编译器**
+  - **EXECUTABLE_OUTPUT_PATH：可执行文件输出的存放路径**
+  - **LIBRARY_OUTPUT_PATH：库文件输出的存放路径**
+
 ### man手册
 
 第七章讲机制
@@ -1034,9 +1204,18 @@ int sigpending(sigset_t *set); //用不到
 
 2. 线程的创建
 
-   线程的终止
+   线程的终止方式
 
-   线程的取消
+   - 线程从启动例程返回，返回值就是线程的退出码
+   - 线程可以被同一进程中的其他今进程取消
+   - pthread_exit退出
+
+   > pthread_join 收尸
+
+   线程的取消的两种状态
+
+   - 允许取消：异步cancel和推迟cancel至推迟点（可能引发阻塞的系统调用）
+   - 不允许取消
 
    栈的清理
 
@@ -1047,6 +1226,22 @@ int sigpending(sigset_t *set); //用不到
                       void *(*start_routine) (void *), void *arg);
    
    Compile and link with -pthread.
+   int pthread_join(pthread_t thread, void **retval); //对线程收尸
+   
+   //栈的清理
+   
+   void pthread_cleanup_push(void (*routine)(void *),
+                             void *arg);
+   void pthread_cleanup_pop(int execute);  //必须成对使用
+   
+   int pthread_cancel(pthread_t thread);//线程取消函数
+   // 设置取消点
+   int pthread_setcancelstate(int state, int *oldstate); //设置是否取消 
+   int pthread_setcanceltype(int type, int *oldtype); //设置取消方式
+   
+   void pthread_testcancel(void); //什么都不做，只是一个取消点
+   
+   // 线程分离
    
    ```
 

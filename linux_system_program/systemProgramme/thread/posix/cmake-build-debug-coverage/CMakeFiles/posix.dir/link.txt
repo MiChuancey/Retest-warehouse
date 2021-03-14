@@ -1,0 +1,1 @@
+/usr/bin/cc --coverage -g   CMakeFiles/posix.dir/main.c.o  -o posix  -lpthread 

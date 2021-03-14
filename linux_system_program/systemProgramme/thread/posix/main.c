@@ -16,6 +16,7 @@ int main() {
         fprintf(stderr,"pthread_create %s\n",strerror(retNum));
         exit(1);
     }
+    pthread_join(tid,NULL);
     puts("over");
     return 0;
 }
