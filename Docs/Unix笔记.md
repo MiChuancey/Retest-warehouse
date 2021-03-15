@@ -1319,17 +1319,43 @@ const char *inet_ntop(int af, const void *src,
                       char *dst, socklen_t size);
 ```
 
-多点通信：
+**多点通信：**
+
+广播（全网广播，子网广播），多播/组播
+
+> 流式是点对点的通信
+
+```bash
+# 通过man手册查看每个层面的SOCKET OPTIONS
+man socket
+man tcp
+man udp
+man ip
+```
+
+```c
+//通过两个函数设置和获取socket options
+int getsockopt(int sockfd, int level, int optname,
+               void *optval, socklen_t *optlen);
+int setsockopt(int sockfd, int level, int optname,
+               const void *optval, socklen_t optlen);
+```
 
 
 
+多播属于D类地址
 
 
 
+将网卡名称转换成网卡索引号
 
+```c
+#include <net/if.h>
 
+unsigned int if_nametoindex(const char *ifname);
+```
 
-
+### TCP
 
 
 
@@ -1434,7 +1460,11 @@ netstat -anu # udp端口
 netstat -ant # tcp端口
 ```
 
+查看网卡的索引号
 
+```bash
+ip ad sh
+```
 
 
 
