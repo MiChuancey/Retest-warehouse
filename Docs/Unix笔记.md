@@ -1282,6 +1282,45 @@ int sigpending(sigset_t *set); //用不到
 > - 内存共享映射
 > - unix domain socket
 
+## **网络编程**
+
+> 跨主机传输要注意的问题:
+>
+> 1. 字节序问题 ：大端存储和小端存储
+>    - 大端：高地址处存低字节 （网络字节序）
+>    - 小端：高地址处存高字节（小端字节序）
+> 2. 对齐：解决方法：不对齐，让编译器来做
+> 3. 类型长度问题
+>    - int       ---------------> int32_t
+>    - usigned int       ------> uint32_t
+>    - long int       ----------> int64_t
+>    - short int       ---------> int8_t
+>    -  unsigned short int --> uint8_t
+> 4.  socket是什么
+
+### UDP
+
+```c
+#include <sys/types.h>          /* See NOTES */
+#include <sys/socket.h>
+
+int socket(int domain, int type, int protocol);
+int bind(int sockfd, const struct sockaddr *addr,
+         socklen_t addrlen);
+ssize_t sendto(int sockfd, const void *buf, size_t len, int flags,
+               const struct sockaddr *dest_addr, socklen_t addrlen);
+ssize_t recvfrom(int sockfd, void *buf, size_t len, int flags,
+                 struct sockaddr *src_addr, socklen_t *addrlen);
+
+#include <arpa/inet.h>
+
+int inet_pton(int af, const char *src, void *dst);
+const char *inet_ntop(int af, const void *src,
+                      char *dst, socklen_t size);
+```
+
+多点通信：
+
 
 
 
@@ -1386,7 +1425,14 @@ root用户无法运行没有x权限的二进制文件，其他权限都可以执
 - ps axm
 - ps ax -L
 
+ 
 
+查看已经打开的端口号
+
+```bash
+netstat -anu # udp端口
+netstat -ant # tcp端口
+```
 
 
 
