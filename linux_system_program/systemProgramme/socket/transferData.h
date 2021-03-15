@@ -8,6 +8,7 @@
 #define NAMELEN 50
 #define MSGLEN 1024
 #define SERPORT 5555
+#define SEIP "127.0.0.1"
 
 struct MSG {
     u_int32_t ip;
