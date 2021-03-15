@@ -9,6 +9,7 @@
 #define MSGLEN 1024
 #define SERPORT 5555
 #define SEIP "127.0.0.1"
+#define MAXCONNECTION 1024
 
 struct MSG {
     u_int32_t ip;
