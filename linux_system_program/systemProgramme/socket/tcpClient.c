@@ -28,6 +28,8 @@ int main(int argc,char** argv) {
     serverAddr.sin_addr.s_addr = htonl(INADDR_LOOPBACK);
     serverAddr.sin_port = htons(SERPORT);
     serverAddr.sin_family = AF_INET;
+    if (setsockopt(sd,SOL_SOCKET,SO_BINDTODEVICE,NULL,0)<0) printErr("setsockopt"); //绑定使用网卡
+
     if (connect(sd,(struct sockaddr*)&serverAddr,sizeof (serverAddr)) < 0) printErr("connect");
     struct MSG msg;
     strcpy(msg.name,argv[1]);
