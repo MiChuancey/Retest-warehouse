@@ -1,0 +1,11 @@
+//
+// Created by Administrator on 2021/3/15.
+//
+
+#ifndef MYTINYHTTPD_SERVERPARAMETER_H
+#define MYTINYHTTPD_SERVERPARAMETER_H
+
+const unsigned short SERVERPORT = 4444;
+const int MAXCONNECTIONNUM = 10;
+
+#endif //MYTINYHTTPD_SERVERPARAMETER_H
