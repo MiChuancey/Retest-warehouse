@@ -38,6 +38,14 @@ set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
 
 
 
+```c
+/*
+strcmp和strcasecmp
+*/
+// 在忽略大小写的情况下比较s1和s2两个串
+int strcasecmp(const char *s1, const char *s2);
+```
+
 
 
 
